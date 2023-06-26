@@ -1,6 +1,6 @@
 [![스타벅스](./images/starbucks_logo.png)](https://kkuunnyu.github.io/testStarbucks)
 
-[해당페이지로 이동](https://kkuunnyu.github.io/testStarbucks)
+[해당페이지로 이동](https://kkuunnyu.github.io/Starbucks)
 
 # 프로젝트 명 : Starbucks Clone Codding
 
