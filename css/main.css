@@ -58,7 +58,7 @@ header .inner .sub-menu{position: absolute;right: 0;top: 10px;display: flex;}
 header .inner .sub-menu ul.menu{display: flex;}
 header .inner .sub-menu ul.menu li{position: relative;}
 header .inner .sub-menu ul.menu li::before{content: "";display: block;width: 1px;height: 12px;background: #e5e5e5;position: absolute;top: 0;bottom: 0;margin: auto;}
-header .inner .sub-menu ul.menu li a{display: block;padding: 10px;font-size: 12px;color: #656565;}
+header .inner .sub-menu ul.menu li a{display: block;padding: 10px;font-size: 12px;color: #af2424;}
 header .inner .sub-menu ul.menu li a:hover{color: #000;}
 header .inner .sub-menu ul.menu li:first-child::before{display: none;}
 
@@ -73,20 +73,20 @@ header .inner .sub-menu .search.focused span{opacity: 0;}
 /* main menu---------- */
 header .inner nav ul.main-menu{display: flex;position: absolute;right: 0;bottom: 0;}
 header .inner nav ul.main-menu > li .item__name{padding: 10px 20px;cursor: pointer;font-size: 14px;}
-header .inner nav ul.main-menu > li:hover .item__name{background: #2c2a29;color: #ff447f;text-decoration: underline;border-radius: 6px 6px 0 0;}
+header .inner nav ul.main-menu > li:hover .item__name{background: #9e769b;color: #ffffff;text-decoration: underline;border-radius: 6px 6px 0 0;}
 
 header .inner nav ul.main-menu > li .item__contents{width: 100%;position: fixed;left: 0;display: none;}
 header .inner nav ul.main-menu > li:hover .item__contents{display: block;}
 
 /* 1층 */
-header .inner nav ul.main-menu > li .item__contents .contents__menu{background: #2c2a29;}
+header .inner nav ul.main-menu > li .item__contents .contents__menu{background: #9e769b;}
 .item__contents ul.inner{display: flex;padding: 20px 0 40px;justify-content: space-around;height: 230px;}
-.item__contents ul.inner li h4{font-size: 14px;color: #fff;font-weight: bold;padding: 3px 0 15px;}
-.item__contents ul.inner li > ul li{font-size: 12px;color: #999;cursor: pointer;padding: 5px 0;}
+.item__contents ul.inner li h4{font-size: 14px;color: #fffdb9;font-weight: bold;padding: 3px 0 15px;}
+.item__contents ul.inner li > ul li{font-size: 12px;color: #fff;cursor: pointer;padding: 5px 0;}
 .item__contents ul.inner li > ul li:hover{color: #ff447f;}
 
 /* 2층 */
-.contents__texture{background: url(../images/main_menu_pattern.jpg);padding: 20px 0;}
+.contents__texture{background: rgba(255,255,255,0.8);padding: 20px 0;}
 .contents__texture .inner h4{color: #999;font-weight: bold;}
 .contents__texture .inner p{color: #ff447f;margin: 5px 0 15px;}
 
@@ -110,11 +110,11 @@ header .inner nav ul.main-menu > li .item__contents .contents__menu{background: 
 
 /* 공지사항 area --------------------------------------------- */
 .notice .notice-line{position: relative;}
-.notice .notice-line .bg-left{position: absolute;top: 0;left: 0;width: 50%;height: 100%;background: #333;}
+.notice .notice-line .bg-left{position: absolute;top: 0;left: 0;width: 50%;height: 100%;background: #af5f5f;}
 .notice .notice-line .bg-right{position: absolute;top: 0;right: 0;width: 50%;height: 100%;background: #f6f5ef;}
 
 .notice .notice-line .inner{display: flex;height: 65px;}
-.notice .notice-line > .inner > .inner__left{width: 60%;height: 100%;background: #333;display: flex;align-items: center;}
+.notice .notice-line > .inner > .inner__left{width: 60%;height: 100%;background: #af5f5f;display: flex;align-items: center;}
 .notice .notice-line > .inner > .inner__left h2{color: #fff;font-size: 17px;width: 80px;font-weight: 700;}
 .notice .notice-line > .inner > .inner__left .more{display: block;width: 62px;height: 62px;display: flex;align-items: center;margin-right: 20px;}
 .notice .notice-line > .inner > .inner__left .more span{font-size: 35px;color: #fff;}
@@ -164,7 +164,7 @@ header .inner nav ul.main-menu > li .item__contents .contents__menu{background: 
 .notice .promotion .swiper .swiper-next{right: 50%;margin-right: -470px;}
 .notice .promotion .swiper .swiper-prev:hover,
 .notice .promotion .swiper .swiper-next:hover{
-  background: #333;color: #fff;
+  background: #ff447f;color: #fff;
 }
 
 /* REWARES area */
@@ -208,7 +208,7 @@ header .inner nav ul.main-menu > li .item__contents .contents__menu{background: 
 /* PICK YOUR FAVORITE----------------------- */
 .pick-your-favorite{background: url(../images/favorite_bg.jpg) no-repeat center fixed;background-size: cover;}
 .pick-your-favorite .inner{padding: 110px 0;}
-.pick-your-favorite .inner .text-group{width: 360px;display: flex;flex-wrap: wrap;justify-content: flex-end;}
+.pick-your-favorite .inner .text-group{display: flex;flex-wrap: wrap;justify-content: center; align-items: center;}
 .pick-your-favorite .inner .text-group .text2{margin: 40px 0;}
 
 /* RESERVE STORE-------------------------- */
@@ -250,26 +250,26 @@ header .inner nav ul.main-menu > li .item__contents .contents__menu{background: 
 
 
 /* FOOTER */
-footer{background: #272727;border-top: 1px solid #333;}
+footer{background: #dedede;border-top: 1px solid #ffffff;}
 footer .inner{padding: 40px 0 60px;} 
 
 footer .inner .menu{display: flex;justify-content: center;} 
 footer .inner .menu li{position: relative;}
 footer .inner .menu li::before{content: "";position: absolute;top: 0;bottom: 0;margin: auto;width: 3px;height: 3px;background: #555;} 
-footer .inner .menu li a{padding: 15px;color: #ccc;}
+footer .inner .menu li a{padding: 15px;color: #555;}
 
 footer .inner .menu li:first-child::before{display: none;}
-footer .inner .menu li:first-child a{color: #669900;font-weight: bold;}
+footer .inner .menu li:first-child a{color: #7c647a;font-weight: bold;}
 
 footer .inner .btn-group{margin: 30px 0;display: flex;justify-content: center;}
-footer .inner .btn-group a{color: #ccc;border: 2px solid #fff;padding: 10px 15px;border-radius: 4px;font-weight: bold;transition: all 0.3s;}
+footer .inner .btn-group a{color: #555;border: 2px solid #555;padding: 10px 15px;border-radius: 4px;font-weight: bold;transition: all 0.3s;}
 footer .inner .btn-group a:nth-child(2){margin: 0 20px;}
 footer .inner .btn-group a:hover{background: #fff;color: #333;}
 
-footer .inner address{text-align: center;color: #999;}
+footer .inner address{text-align: center;color: #555;}
 footer .inner address span{margin: 0 15px;}
 
-footer .inner .copyright{color: #999;text-align: center;margin: 10px 0 20px;}
+footer .inner .copyright{color: #555;text-align: center;margin: 10px 0 20px;}
 
 footer .inner > img{margin: auto;}
 
